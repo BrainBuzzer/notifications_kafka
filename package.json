@@ -1,0 +1,19 @@
+{
+  "name": "notifications_kafka",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "dev": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.154.0",
+    "aws-sdk": "^2.1199.0",
+    "ip": "^1.1.8",
+    "kafkajs": "^2.2.0",
+    "uuid": "^8.3.2"
+  }
+}
